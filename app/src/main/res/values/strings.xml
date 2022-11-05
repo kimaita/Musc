@@ -1,0 +1,45 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Musc</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_music">Music</string>
+    <string name="title_trends">Trends</string>
+    <string name="image_of_artiste">Image of Artist</string>
+    <string name="album_art_desc">Album Art</string>
+    <string name="song_album_art">Song Album Art</string>
+    <string name="trends">Trends</string>
+    <string name="song_plays">Plays: %d </string>
+    <string name="song_count">Songs: %d</string>
+    <string name="album_count">Albums: %d</string>
+    <string name="song_play_duration">For: %s</string>
+    <string name="song_details_year">Year: %d</string>
+    <string name="play_song">Play Song</string>
+    <string name="notif_listener">Music Notification Listener</string>
+    <string name="track_selection_title">Select tracks</string>
+    <string name="your_top_songs">Your Top Songs</string>
+    <string name="favorite_artists">Your Top Artists</string>
+    <string name="your_top_albums">Your Top Albums</string>
+    <string name="no_records">No Records Yet</string>
+    <string name="song_details_artist">Artist Name: %s</string>
+    <string name="song_details_album">Album: %s</string>
+    <string name="song_details_genre">Genre: %s</string>
+    <string name="song_details_playtime">Playtime: %s</string>
+    <string name="song_details_size">Length: %s</string>
+    <string name="top_songs">Top Songs</string>
+    <string name="favorite_albums">Favorite Albums</string>
+    <string name="search_query_filters">track:%1$s artist:%2$s</string>
+    <string name="play_history">Play History</string>
+    <string name="record_starttime">Start Time: %s</string>
+    <string name="no_playtime">No playtime yet</string>
+    <string name="play_song_externally">Play this song in external app</string>
+    <string name="image_of_artist">Image of Artist</string>
+    <string name="artist_info_albums">Albums(%d)</string>
+    <string name="info_songs">Songs(%d)</string>
+    <string name="search_song">Search</string>
+    <string name="sort_by">Sort by</string>
+    <string name="song_title">Title</string>
+    <string name="date_added">Date Added</string>
+    <string name="song_artist">Artist</string>
+    <string name="name">Name</string>
+
+
+</resources>

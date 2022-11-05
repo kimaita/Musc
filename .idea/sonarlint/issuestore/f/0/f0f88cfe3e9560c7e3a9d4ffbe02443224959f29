@@ -1,0 +1,13 @@
+
+S
+java:S18548"=Remove this useless assignment to local variable "artistPic".(Š•èµ
+D
+java:S14818".Remove this unused "artistPic" local variable.(Š•èµ
+f
+java:S1659u"KDeclare "textSongLength" and all following declarations on a separate line.(ÐŸ»ëøÿÿÿÿ
+l
+java:S3252Ÿ"NUse static access with "android.provider.MediaStore$MediaColumns" for "TITLE".(Ã»€²8Ñéí…–0
+o
+java:S3252Ÿ"QUse static access with "android.provider.MediaStore$MediaColumns" for "DURATION".(Ã»€²8Òéí…–0
+o
+java:S3252©"QUse static access with "android.provider.MediaStore$MediaColumns" for "DURATION".(É¥Êö8Öéí…–0

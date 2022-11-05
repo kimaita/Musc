@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kimaita.musc.ui.music.MusicFragment">
+
+    <item
+        android:id="@+id/search_songs"
+        android:icon="@drawable/ic_search_24"
+        android:title="@string/search_song"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sort_songs"
+        android:icon="@drawable/ic_sort_by_24"
+        android:title="@string/sort_by"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sort_title"
+                android:title="@string/song_title" />
+            <item
+                android:id="@+id/sort_date_added"
+                android:title="@string/date_added" />
+            <item
+                android:id="@+id/sort_artist"
+                android:title="@string/song_artist" />
+        </menu>
+
+    </item>
+
+</menu>

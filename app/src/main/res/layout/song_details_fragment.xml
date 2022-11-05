@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.music.songs.SongDetailsFragment">
+
+
+    <TextView
+        android:id="@+id/details_artist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        tools:text="Artist Name" />
+
+    <TextView
+        android:id="@+id/details_album"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        tools:text="Album title" />
+
+    <TextView
+        android:id="@+id/details_length"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        tools:text="Length" />
+
+    <TextView
+        android:id="@+id/details_genre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        tools:text="Genre" />
+
+    <TextView
+        android:id="@+id/details_release"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+        tools:text="Release Date" />
+
+    <com.db.williamchart.view.HorizontalBarChartView
+        android:id="@+id/chart_audio_features"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        app:chart_barsBackgroundColor="@color/material_on_surface_stroke"
+        app:chart_barsColor="@color/design_default_color_primary_dark"
+        app:chart_barsRadius="12dp"
+        app:chart_labelsColor="@android:color/black"
+        app:chart_labelsSize="16sp"
+        app:chart_spacing="12dp" />
+</LinearLayout>

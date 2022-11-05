@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.kimaita.musc.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_player"
+        android:name="com.kimaita.musc.ui.music.MusicFragment"
+        android:label="@string/title_music"
+        tools:layout="@layout/fragment_music" >
+        <action
+            android:id="@+id/action_navigation_player_to_songInfoFragment"
+            app:destination="@id/songInfoFragment" />
+        <action
+            android:id="@+id/action_navigation_player_to_artistInfoFragment"
+            app:destination="@id/artistInfoFragment" />
+        <action
+            android:id="@+id/action_navigation_player_to_offDeviceSongInfoFragment"
+            app:destination="@id/offDeviceSongInfoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_trends"
+        android:name="com.kimaita.musc.ui.trends.TrendsFragment"
+        android:label="@string/title_trends"
+        tools:layout="@layout/fragment_trends" />
+    <fragment
+        android:id="@+id/songInfoFragment"
+        android:name="com.kimaita.musc.ui.music.songs.SongInfoFragment"
+        android:label="fragment_song_info"
+        tools:layout="@layout/fragment_song_info" >
+        <argument
+            android:name="songID"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/artistInfoFragment"
+        android:name="com.kimaita.musc.ui.music.artists.ArtistInfoFragment"
+        android:label="artist_info_fragment"
+        tools:layout="@layout/artist_info_fragment" >
+        <argument
+            android:name="artistID"
+            app:argType="long" />
+        <argument
+            android:name="artistName"
+            app:argType="string" />
+        <argument
+            android:name="artistAlbumSongCount"
+            app:argType="integer[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/offDeviceSongInfoFragment"
+        android:name="com.kimaita.musc.OffDeviceSongInfoFragment"
+        android:label="fragment_off_device_song_info"
+        tools:layout="@layout/fragment_off_device_song_info" >
+        <argument
+            android:name="spotifyID"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

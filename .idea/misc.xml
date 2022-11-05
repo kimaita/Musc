@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/activity_main.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/album_details.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/album_itemview.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/artist_details.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/artist_info_fragment.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/artist_itemview.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/fragment_dashboard.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/fragment_music.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/fragment_music_list.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/fragment_off_device_song_info.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/fragment_song_info.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/fragment_song_play_history.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/fragment_trends.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/item_date_label.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/song_details.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/song_details_fragment.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/song_info_content.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/song_itemview.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/song_play_details.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/songitem_album_details.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/layout/songlist_itemview.xml" value="0.2109375" />
+        <entry key="..\:/Users/John Kimaita/Documents/Musc/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2109375" />
+        <entry key="app/src/main/res/drawable/bottomsheet_bg.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/dot.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/drawable/ic_play_arrow_24.xml" value="0.1671171171171171" />
+        <entry key="app/src/main/res/drawable/ic_sharp_person_24.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1712962962962963" />
+        <entry key="app/src/main/res/layout/activity_spotify_auth.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/layout/album_details.xml" value="0.17314814814814813" />
+        <entry key="app/src/main/res/layout/album_itemview.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/artist_details.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/artist_info_fragment.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/artist_itemview.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1511111111111111" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="app/src/main/res/layout/fragment_music.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_music_list.xml" value="0.1685185185185185" />
+        <entry key="app/src/main/res/layout/fragment_music_list2.xml" value="0.1685185185185185" />
+        <entry key="app/src/main/res/layout/fragment_off_device_song_info.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_play_music.xml" value="0.15315315315315314" />
+        <entry key="app/src/main/res/layout/fragment_song_info.xml" value="0.19" />
+        <entry key="app/src/main/res/layout/fragment_song_play_history.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/fragment_trends.xml" value="0.16666666666666666" />
+        <entry key="app/src/main/res/layout/item_date_label.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_song_details_feature.xml" value="0.10648148148148148" />
+        <entry key="app/src/main/res/layout/song_details.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/song_details_fragment.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/song_info_content.xml" value="0.1111111111111111" />
+        <entry key="app/src/main/res/layout/song_itemview.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/song_play_details.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/songitem_album_details.xml" value="0.17314814814814813" />
+        <entry key="app/src/main/res/layout/songlist_itemview.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/menu/music_fragment_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
