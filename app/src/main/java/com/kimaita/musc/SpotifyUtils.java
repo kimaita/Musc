@@ -45,27 +45,23 @@ public class SpotifyUtils {
 
 
     public String getAccessToken() {
-        final String CLIENT_ID = "50556a6bf67e4377a454964fd6391f91";
-        final String CLIENT_SECRET = "281527eeceb946ff9b6410628d9b863b";
+
         String token = "";
         ExecutorService es = Executors.newSingleThreadExecutor();
-        Future<String> result = es.submit(new Callable<String>() {
-            @Override
-            public String call() {
-                String accessToken = "";
-                try {
-                    ClientCredentialsFlow clientCredentialsFlow = new ClientCredentialsFlow();
-                    ClientCredentialsFlowTokenResponse response = clientCredentialsFlow.getClientCredentialToken(
-                            CLIENT_ID,
-                            CLIENT_SECRET);
-                    accessToken = response.getAccessToken();
-                    long expiresIn = response.getExpiresIn();
-                    SpotifyCredentialsHandler.setToken(mContext, accessToken, expiresIn, TimeUnit.SECONDS);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-                return accessToken;
+        Future<String> result = es.submit(() -> {
+            String accessToken = "";
+            try {
+                ClientCredentialsFlow clientCredentialsFlow = new ClientCredentialsFlow();
+                ClientCredentialsFlowTokenResponse response = clientCredentialsFlow.getClientCredentialToken(
+                        Credentials.CLIENT_ID,
+                        Credentials.CLIENT_SECRET);
+                accessToken = response.getAccessToken();
+                long expiresIn = response.getExpiresIn();
+                SpotifyCredentialsHandler.setToken(mContext, accessToken, expiresIn, TimeUnit.SECONDS);
+            } catch (Exception e) {
+                e.printStackTrace();
             }
+            return accessToken;
         });
         try {
             token = result.get();
